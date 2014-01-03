@@ -1,5 +1,6 @@
 *.dat
 *.tmp
+*.txt
 *.zip
 *.tgz
 *.swp
