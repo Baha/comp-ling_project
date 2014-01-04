@@ -2,7 +2,7 @@ TRAINING="training_full.txt"
 TEST="test.txt"
 MODELS="europarl.modelos"
 
-for freq in 1 5 9; do
+for freq in 0 1 5 9; do
   rm task4-$freq.dat
   for ord in $(seq 3 4); do
     echo -n "$ord " >> task4-$freq.dat
