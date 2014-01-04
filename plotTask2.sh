@@ -3,8 +3,8 @@ echo "set xlabel 'Orden de los n-gramas'
       set xtics 1
       set xrange [2.8:4.2]
       set yrange [11.5:13]
-		  set terminal postscript enhanced color
-		  set output 'plot_task2.ps'
+		  set terminal png
+		  set output 'plot_task2.png'
 		  plot 'task2.dat' u 1:2 title 'Good-Turing' w lp, \
       'task2-wbdiscount.dat' u 1:2 title 'Witten-Bell' w lp, \
       'task2-kndiscount.dat' u 1:2 title 'Kneser-Ney' w lp, \
